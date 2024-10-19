@@ -1,7 +1,26 @@
 {
-  "name": "hardhat-project",
+  "name": "foundry-hardhat-diamonds",
+  "version": "1.0.0",
+  "description": "[![Mentioned in Awesome Foundry](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/crisgarner/awesome-foundry) # Foundry + Hardhat Diamonds",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.6",
-    "ethers": "^5.6.9"
+    "@dk1a/solidity-stringutils": "^0.3.3",
+    "@types/node": "^22.7.7",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
   }
 }
